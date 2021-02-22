@@ -9,3 +9,18 @@
   src: url("/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc.woff")
     format("woff");
 }
+
+.navelement {
+  text-align: left;
+  background: #fd7430;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  left: 70px;
+}
