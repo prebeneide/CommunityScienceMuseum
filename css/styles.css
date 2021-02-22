@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Planet Love";
+  src: url("OneDrive/Noroff/SemesterProject1/Font/planetlove/Planet-love.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "American Typewriter";
+  src: url("/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc.woff")
+    format("woff");
+}
+
+.navelement {
+  text-align: left;
+  background: #fd7430;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  left: 70px;
+}
+
+nav a {
+  font-family: "Planet Love";
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: white;
+}
