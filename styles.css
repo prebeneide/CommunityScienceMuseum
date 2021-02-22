@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Planet Love";
+  src: url("OneDrive/Noroff/SemesterProject1/Font/planetlove/Planet-love.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "American Typewriter";
+  src: url("/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc.woff")
+    format("woff");
+}
